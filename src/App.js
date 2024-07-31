@@ -1,8 +1,12 @@
+import HabitList from "./HabitList";
+
+const Header = () => <div><h1 style={{textAlign:"center"}}>Consistency Calendar</h1></div>
 const App = () => {
     return ( 
-        <>
-            This is app component
-        </>
+        <div className="app-container">
+            <Header />
+            <HabitList></HabitList>
+        </div>
     );
 }
  
